@@ -1,6 +1,6 @@
 # LLM Inference Optimization Assignment
 
-This repository contains code, configurations, and results from optimizing Llama 3.1 8B-Instruct for production deployment on H100 GPU. This file contains instructions to run the models and also load test and evaluation methodology for each of our models
+This repository contains code, configurations, and results from optimizing Llama 3.1 8B-Instruct for production deployment on H100 GPU. This file contains instructions to run the models and also load test and evaluation methodology for each of our models.
 
 ## Repository Structure
 
