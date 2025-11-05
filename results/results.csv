@@ -1,0 +1,7 @@
+Model,TTFT (ms),E2E Latency (ms),Tokens/sec
+baseline_llama_cpp,33.81,12955.2,79.41
+vllm,25.59,7859.38,130.85
+vllm_fp8_quantization,18.36,5502.63,187.08
+sglang,52.44,7653.21,134.83
+sglang_torch_compile,54.35,7185.99,143.67
+
