@@ -124,7 +124,7 @@ See Cost Projections table above. The vLLM FP8 configuration provides:
 1. **Latency Metrics**:
    - TTFT P50, P90, P99 (alert if P99 > 100ms)
    - E2E latency P50, P90, P99 (alert if P99 > 10s)
-   - Token generation rate (alert if < 150 tokens/sec)
+   - Token generation rate (alert if < 100 tokens/sec)
 
 2. **Throughput Metrics**:
    - Requests per second
@@ -134,7 +134,6 @@ See Cost Projections table above. The vLLM FP8 configuration provides:
 3. **System Metrics**:
    - GPU memory usage (alert if > 90%)
    - Queue depth (alert if > 100 pending requests)
-   - Error rate (alert if > 1%)
 
 ### Recommended Alert Thresholds
 
