@@ -105,7 +105,6 @@ python -m vllm.entrypoints.openai.api_server \
 **Alternatives Considered**:
 - **A100**: Lower cost (~$1.50/hour) but slower FP8 performance and 40GB limit constrains batch sizes
 - **L40S**: Good for mixed workloads but lacks FP8 acceleration
-- **H100 40GB**: Similar performance but memory constraints limit throughput
 
 **Verdict**: H100 80GB is optimal for production scale due to FP8 acceleration, large memory capacity, and competitive pricing.
 
